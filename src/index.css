@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* Identidad visual propia: papel cálido + tinta + color "brasa" */
+@theme {
+  --font-sans: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --color-papel: #f4efe6;
+  --color-hoja: #fffdf8;
+  --color-tinta: #1d1b16;
+  --color-brasa: #e4572e;
+  --color-mostaza: #e9b44c;
+  --color-musgo: #2f6f5e;
+}
+
+body {
+  background: var(--color-papel);
+  color: var(--color-tinta);
+  font-family: var(--font-sans);
+  background-image: radial-gradient(#1d1b1614 1px, transparent 1px);
+  background-size: 22px 22px;
+}
